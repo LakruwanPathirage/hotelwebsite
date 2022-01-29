@@ -1,0 +1,70 @@
+/* nav bar */
+#navbar h1 {
+  float: none;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#navbar ul {
+  list-style: none;
+  float: none;
+}
+
+#navbar ul li {
+  width: 100%;
+  float: none;
+}
+
+#navbar ul li a {
+  font-size: 1.2rem;
+  display: block;
+  padding: 8px;
+  border-bottom: 1px dotted #fff;
+}
+/* home info */
+#home-info .home-info-img {
+  float: none;
+  display: none;
+}
+#home-info .home-info-content {
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+#home-info .home-info-content h1 {
+  padding: 10px;
+}
+
+/* box class */
+#feautures .box {
+  float: none;
+  padding: 10px;
+  width: 100%;
+}
+
+/* showcase */
+
+#showcase #showcase-content h1 {
+  font-size: 35px;
+}
+#showcase {
+  padding-top: 10px;
+  height: 100%;
+}
+#testimonials p {
+  font-size: 1.4rem;
+}
+#testimonials #left-tesimonials {
+  float: none;
+  width: 100%;
+}
+#testimonials #right-tesimonials {
+  float: none;
+  width: 100%;
+}
+#testimonials {
+  text-align: center;
+}
+#testimonials #right-tesimonials img {
+  margin: 10px auto;
+}
