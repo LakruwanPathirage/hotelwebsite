@@ -9,7 +9,18 @@
       content="welcome to the our hotel comprises with many facilities"
     />
     <meta name="keywords" content="hotel,cinamamon grand,sri lanka" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./css/mobile.css"
+      media="screen and (max-width:768px)"
+    />
     <title>Hotel | Welcome</title>
   </head>
   <body>
@@ -18,13 +29,73 @@
         <div class="container">
           <h1 class="logo"><a href="index.html">Cinanmon</a></h1>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">About</a></li>
-            <li><a href="index.html">Contact</a></li>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <!-- <li><a href="contact.html">Contact</a></li> -->
           </ul>
           <div class="clafx"></div>
         </div>
       </nav>
+      <div id="showcase">
+        <div class="container">
+          <div id="showcase-content">
+            <h1><span>Enjoy</span>Your Stay</h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit
+              architecto, id error sed incidunt animi.
+            </p>
+            <a class="btn" href="about.html">About Our Hotel</a>
+          </div>
+        </div>
+      </div>
     </header>
+    <div class="clr"></div>
+    <section id="home-info">
+      <div class="home-info-img"></div>
+      <div class="home-info-content bg-dark">
+        <h1><span>History</span> of our Hotel</h1>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla hic
+          iure distinctio quam nemo animi quod mollitia dolorem, nobis nam iusto
+          unde ab maiores ipsum inventore eveniet! Ex id sunt perferendis sit.
+          Odit laborum sunt delectus! Similique deserunt maiores ducimus,
+          corrupti blanditiis doloribus reiciendis aut voluptates. Beatae eum
+          adipisci atque.
+        </p>
+        <a href="about.html" class="btn btn-light">Read More</a>
+      </div>
+    </section>
+    <div class="clr"></div>
+    <section id="feautures">
+      <div class="box bg-light">
+        <i class="fas fa-building fa-3x"></i>
+        <h1>Great Location</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+          voluptas, fuga soluta ut minus impedit?
+        </p>
+      </div>
+      <div class="box bg-primary">
+        <i class="fas fa-utensils fa-3x"></i>
+        <h1>Fitness Room</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+          voluptas, fuga soluta ut minus impedit?
+        </p>
+      </div>
+      <div class="box bg-light">
+        <i class="fas fa-dumbbell fa-3x"></i>
+        <h3>Fitness Room</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+          voluptas, fuga soluta ut minus impedit?
+        </p>
+      </div>
+    </section>
+    <div class="clr"></div>
+    <footer id="main-footer">
+      <p>Hotel BT &copy; 2019, All RIghts Reserved</p>
+    </footer>
   </body>
 </html>
